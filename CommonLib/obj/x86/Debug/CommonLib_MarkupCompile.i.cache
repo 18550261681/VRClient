@@ -16,5 +16,5 @@ DEBUG;TRACE
 13-548485220
 baseView\BaseWindowStyle.xaml;control\listImageControl\LlistImageControl.xaml;control\searchTextBox\SearchTextBox.xaml;control\tabButton\TabButton.xaml;resources\ButtonStyle.xaml;control\imageButton\ImageButton.xaml;control\textBoxDefaltValue\PasswordBoxEx.xaml;resources\CheckBoxStyle.xaml;resources\LabelTabControlStyle.xaml;resources\ListViewCommonStyle.xaml;resources\ScrollBarStyle.xaml;resources\TabControlStyle.xaml;
 
-True
+False
 
