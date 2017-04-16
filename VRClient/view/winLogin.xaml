@@ -1,0 +1,23 @@
+﻿<Window x:Class="VRClient.view.winLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:btn="clr-namespace:CommonLib.control.imageButton;assembly=CommonLib"
+        xmlns:txtEx="clr-namespace:CommonLib.control.textBoxDefaltValue;assembly=CommonLib"
+        x:Name="window" Title=""  WindowStyle="None"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen"  Height="320" Width="480">
+
+    <Grid>
+
+        <Image Source="/VRClient;component/img/winLogin/backGround.png"  Height="320" Width="480"></Image>
+
+        <btn:ImageButton x:Name="btnClose" Height="25" Width="25" NormalImage="/VRClient;component/img/winLogin/btnClose_Normal.png"  HoverImage="/VRClient;component/img/winLogin/btnClose_Hover.png" ActiveImage="/VRClient;component/img/winLogin/btnClose_Active.png" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top" Command="{Binding DataContext.CloseCmd,ElementName=window}"  CommandParameter="{Binding ElementName=window}" ></btn:ImageButton>
+
+        <txtEx:NormalTextEx x:Name="txtUserId" Foreground="Black" FontSize="16"  Width="180" Height="25" BorderThickness="0" Background="Transparent"
+                       BrushColor="#AAAAAA" DefaltValue="用户名" Text="{Binding UserId,UpdateSourceTrigger=PropertyChanged}" Margin="229,81,71,214" />
+
+        <txtEx:PasswordBoxEx Hint="密码" Foreground="Black" FontSize="16" Width="180" Height="25" Background="White"
+                        Password="{Binding Path=Password,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Margin="218,117,60,139" />
+
+        <Button Width="200" Height="36" Content="登录"  FontSize="16"  Style="{StaticResource ButtonNormoal}" Command="{Binding OKCmd}"  CommandParameter="{Binding ElementName=window}"  Margin="208,189,50,56" />
+    </Grid>
+
+</Window>
