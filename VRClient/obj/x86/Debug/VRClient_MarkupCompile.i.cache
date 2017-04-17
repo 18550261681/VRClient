@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\xianfeng\VRClient\VRClient\obj\x86\Debug\
+C:\Users\Administrator\Desktop\www\VRClient\VRClient\obj\x86\Debug\
 VRClient
 none
 false
 DEBUG;TRACE
-F:\xianfeng\VRClient\VRClient\App.xaml
+C:\Users\Administrator\Desktop\www\VRClient\VRClient\App.xaml
 3-115478948
 
 13-902604976
-171208900824
+17183443395
 view\winLogin.xaml;view\winMain.xaml;view\winManage.xaml;
 
-False
+True
 

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-F:\xianfeng\VRClient\CommonLib\obj\x86\Debug\
+C:\Users\Administrator\Desktop\www\VRClient\CommonLib\obj\x86\Debug\
 CommonLib
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 12-1526063332
 
 121570514118
-13-548485220
+131577873881
 baseView\BaseWindowStyle.xaml;control\listImageControl\LlistImageControl.xaml;control\searchTextBox\SearchTextBox.xaml;control\tabButton\TabButton.xaml;resources\ButtonStyle.xaml;control\imageButton\ImageButton.xaml;control\textBoxDefaltValue\PasswordBoxEx.xaml;resources\CheckBoxStyle.xaml;resources\LabelTabControlStyle.xaml;resources\ListViewCommonStyle.xaml;resources\ScrollBarStyle.xaml;resources\TabControlStyle.xaml;
 
-False
+True
 

@@ -28,3 +28,6 @@ F:\先锋\VRClient\VRClient\obj\x86\Debug\view\winManage.g.cs
 F:\xianfeng\VRClient\VRClient\bin\Debug\VRClient.exe.config
 F:\xianfeng\VRClient\VRClient\obj\x86\Debug\VRClient.exe
 F:\xianfeng\VRClient\VRClient\obj\x86\Debug\VRClient.pdb
+C:\Users\Administrator\Desktop\www\VRClient\VRClient\bin\Debug\VRClient.exe.config
+C:\Users\Administrator\Desktop\www\VRClient\VRClient\obj\x86\Debug\VRClient.exe
+C:\Users\Administrator\Desktop\www\VRClient\VRClient\obj\x86\Debug\VRClient.pdb
