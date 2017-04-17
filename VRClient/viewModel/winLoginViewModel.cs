@@ -13,7 +13,8 @@ namespace VRClient.viewModel
     public class winLoginViewModel : BaseViewModel
     {
         #region 变量
-
+        王海1111111111111111111111
+            个人人人人人人人人
        
         #endregion
 
